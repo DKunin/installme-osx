@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 # setup folder structure
 mkdir ~/Projects
 
