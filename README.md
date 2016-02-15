@@ -6,9 +6,12 @@ These are just my personal scripts to help me setup a new osx machine.
 
 To start a new setup, simply run:
 
-```shell
-bash -c "`curl -L https://raw.githubusercontent.com/dkunin/installme-osx/master/setup.sh`"
-```
+
+    bash -c "`curl -L https://raw.githubusercontent.com/dkunin/installme-osx/master/setup.sh`"
+
+To only install bins:
+    
+    bash -c "`curl -L https://raw.githubusercontent.com/dkunin/installme-osx/master/bins-install.sh`"
 
 ## Complete setup
 
@@ -16,5 +19,6 @@ Setting up a new osx machine requires some manual steps, [a gist enumerating all
 
 ## License
 
-Copyright (c) 2015 Ruy Adorno. Licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+Copyright (c) 2015 Ruy Adorno. 
+Licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
 
