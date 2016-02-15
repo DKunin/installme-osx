@@ -21,6 +21,11 @@ brew install findutils
 brew install jpeg-turbo
 brew install optipng
 brew install readline
+brew install pkg-config
+brew install cairo
+brew install libpng
+brew install jpeg
+brew install giflib
 
 # Apps
 brew install the_silver_searcher
@@ -72,9 +77,9 @@ git clone https://github.com/tarjoilija/zgen.git
 
 ## Setup symlinks
 cd ~/
-ln -s Projects/dotfiles/aliases ~/.aliases
-ln -s Projects/dotfiles/gitconfig ~/.gitconfig
-ln -s Projects/dotfiles/zshrc ~/.zshrc
+ln -s ~/Projects/dotfiles/aliases ~/.aliases
+ln -s ~/Projects/dotfiles/gitconfig ~/.gitconfig
+ln -s ~/Projects/dotfiles/zshrc ~/.zshrc
 
 # Set zsh as default shell
 chsh -s /bin/zsh
