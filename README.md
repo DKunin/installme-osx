@@ -1,11 +1,13 @@
 # My personal scripts to setup a new OSX
 
+Fork from [ruyadorno/installme-osx](https://github.com/ruyadorno/installme-osx)
+
 These are just my personal scripts to help me setup a new osx machine.
 
 To start a new setup, simply run:
 
 ```shell
-bash -c "`curl -L https://raw.githubusercontent.com/ruyadorno/installme-osx/master/setup.sh`"
+bash -c "`curl -L https://raw.githubusercontent.com/dkunin/installme-osx/master/setup.sh`"
 ```
 
 ## Complete setup
