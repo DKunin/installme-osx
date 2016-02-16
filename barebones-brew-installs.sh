@@ -61,6 +61,7 @@ installcask keka
 # cask media
 installcask vlc
 installcask vox
+installcask slack
 
 # cask helpers
 installcask keepingyouawake
