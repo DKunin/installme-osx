@@ -1,11 +1,3 @@
-#!/bin/sh
-
-# setup folder structure
-mkdir ~/Projects
-
-# nvm setup 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
-
 # brew setup
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -59,7 +51,6 @@ installcask firefoxdeveloperedition
 
 # cask devtools
 installcask iterm2
-installcask teamviewer    
 installcask virtualbox
 installcask vagrant
 installcask skype
@@ -69,42 +60,8 @@ installcask keka
 
 # cask media
 installcask vlc
-installcask android-file-transfer
-installcask utorrent
-installcask beardedspice
 installcask vox
 
 # cask helpers
-installcask anybar
 installcask keepingyouawake
-installcask itsycal
-installcask bartender
-installcask bitbar
-installcask alfred
-installcask unified-remote
 installcask smcfancontrol
-
-# npm dependencies that I'm not likely to live without
-npm install -g grunt-cli
-npm install -g light-server
-npm install -g gulp
-npm install -g yo
-npm install -g http-server
-
-## Get dotfiles repo
-cd ~/Projects
-git clone https://github.com/DKunin/dotfiles.git
-
-## Get zsh bundle manager
-git clone https://github.com/tarjoilija/zgen.git
-
-## Setup symlinks
-cd ~/
-ln -s ~/Projects/dotfiles/aliases ~/.aliases
-ln -s ~/Projects/dotfiles/gitconfig ~/.gitconfig
-ln -s ~/Projects/dotfiles/zshrc ~/.zshrc
-
-# Set zsh as default shell
-chsh -s /bin/zsh
-
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
