@@ -40,6 +40,7 @@ brew install wget
 brew install tig
 brew install ffind
 brew install openconnect
+brew install zsh
 
 # OSX native apps
 brew tap caskroom/cask
@@ -107,8 +108,9 @@ cd ~/
 ln -s ~/Projects/dotfiles/aliases ~/.aliases
 ln -s ~/Projects/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Projects/dotfiles/zshrc ~/.zshrc
+ln -s ~/Projects/dotfiles/zprofile ~/.zprofile
+
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Set zsh as default shell
 chsh -s /bin/zsh
-
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
