@@ -66,6 +66,9 @@ installcask skype
 installcask sequel-pro
 installcask tunnelblick
 installcask keka
+installcask cyberduck
+installcask filezilla
+installcask postman
 
 # cask media
 installcask vlc
