@@ -90,6 +90,7 @@ npm install -g light-server
 npm install -g gulp
 npm install -g yo
 npm install -g http-server
+npm install -g js-beautify
 
 ## Get dotfiles repo
 cd ~/Projects
