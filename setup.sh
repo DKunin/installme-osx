@@ -109,7 +109,14 @@ ln -s ~/Projects/dotfiles/aliases ~/.aliases
 ln -s ~/Projects/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/Projects/dotfiles/zshrc ~/.zshrc
 ln -s ~/Projects/dotfiles/zprofile ~/.zprofile
+ln -s ~/Projects/dotfiles/functions ~/.functions
+ln -s ~/Projects/dotfiles/env ~/.env
+ln -s ~/Projects/dotfiles/prompt ~/.prompt
 
+## Create a simple local env file - that can overwrite other stuff
+touch .localenv
+
+## Install Oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Set zsh as default shell
