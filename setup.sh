@@ -95,6 +95,7 @@ npm install -g gulp
 npm install -g yo
 npm install -g http-server
 npm install -g js-beautify
+npm install -g ipt
 
 ## Get dotfiles repo
 cd ~/Projects
