@@ -77,6 +77,7 @@ installcask android-file-transfer
 installcask utorrent
 installcask beardedspice
 installcask vox
+installcask soundnode
 
 # cask helpers
 installcask anybar
