@@ -112,7 +112,11 @@ ln -s ~/Projects/dotfiles/zshrc ~/.zshrc
 ln -s ~/Projects/dotfiles/zprofile ~/.zprofile
 ln -s ~/Projects/dotfiles/functions ~/.functions
 ln -s ~/Projects/dotfiles/env ~/.env
+ln -s ~/Projects/dotfiles/osx ~/.osx
 ln -s ~/Projects/dotfiles/prompt ~/.prompt
+
+## Load osx defaults
+~/.osx
 
 ## Create a simple local env file - that can overwrite other stuff
 touch .localenv
