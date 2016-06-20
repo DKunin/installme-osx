@@ -4,7 +4,7 @@
 mkdir ~/Projects
 
 # nvm setup 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
 
 # brew setup
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -60,7 +60,6 @@ installcask firefoxdeveloperedition
 
 # cask devtools
 installcask iterm2
-installcask teamviewer    
 installcask virtualbox
 installcask vagrant
 installcask skype
