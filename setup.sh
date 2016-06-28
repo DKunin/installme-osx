@@ -72,7 +72,6 @@ installcask postman
 
 # cask media
 installcask vlc
-installcask android-file-transfer
 installcask utorrent
 installcask beardedspice
 installcask vox
