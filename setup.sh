@@ -53,6 +53,10 @@ function installcask() {
 # cask editors
 installcask sublime-text3
 
+# st3 package control plugin
+curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
+
+
 # cask browsers
 installcask google-chrome
 installcask firefox
