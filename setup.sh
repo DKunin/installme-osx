@@ -72,7 +72,7 @@ installcask postman
 
 # cask media
 installcask vlc
-installcask utorrent
+installcask webtorrent
 installcask beardedspice
 installcask vox
 
