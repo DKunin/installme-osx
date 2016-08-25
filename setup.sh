@@ -53,6 +53,10 @@ function installcask() {
 # cask editors
 installcask sublime-text3
 
+# st3 package control plugin
+curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
+
+
 # cask browsers
 installcask google-chrome
 installcask firefox
@@ -85,6 +89,7 @@ installcask bitbar
 installcask alfred
 installcask unified-remote
 installcask smcfancontrol
+installcask phoenix
 
 # npm dependencies that I'm not likely to live without
 npm install -g grunt-cli
@@ -112,6 +117,7 @@ ln -s ~/Projects/dotfiles/functions ~/.functions
 ln -s ~/Projects/dotfiles/env ~/.env
 ln -s ~/Projects/dotfiles/osx ~/.osx
 ln -s ~/Projects/dotfiles/prompt ~/.prompt
+ln -s ~/Projects/dotfiles/phoenix ~/.phoenix.js
 
 ## Load osx defaults
 ~/.osx
