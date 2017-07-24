@@ -25,6 +25,7 @@ brew install cairo
 brew install libpng
 brew install jpeg
 brew install giflib
+brew install fzf
 
 # Apps
 brew install the_silver_searcher
