@@ -4,7 +4,8 @@
 mkdir ~/Projects
 
 # nvm setup 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+
 
 # brew setup
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -57,11 +58,9 @@ installcask sublime-text3
 # st3 package control plugin
 curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/Package\ Control.sublime-package
 
-
 # cask browsers
 installcask google-chrome
 installcask firefox
-installcask firefoxdeveloperedition
 
 # cask devtools
 installcask iterm2
@@ -82,13 +81,10 @@ installcask beardedspice
 installcask vox
 
 # cask helpers
-installcask anybar
 installcask keepingyouawake
-installcask itsycal
 installcask bartender
 installcask bitbar
 installcask alfred
-installcask unified-remote
 installcask smcfancontrol
 installcask phoenix
 
@@ -102,32 +98,28 @@ npm install -g js-beautify
 npm install -g ipt
 
 ## Get dotfiles repo
-cd ~/Projects
+cd ~/Projects || exit;
+
+## Get dotfiles repo
 git clone https://github.com/DKunin/dotfiles.git
 
-## Get zsh bundle manager
-git clone https://github.com/tarjoilija/zgen.git
+## Get bins repo
+git clone https://github.com/DKunin/bin.git
 
 ## Setup symlinks
-cd ~/
+cd ~/ || exit;
+ln -s ~/Projects/dotfiles/env ~/.env
 ln -s ~/Projects/dotfiles/aliases ~/.aliases
 ln -s ~/Projects/dotfiles/gitconfig ~/.gitconfig
-ln -s ~/Projects/dotfiles/zshrc ~/.zshrc
-ln -s ~/Projects/dotfiles/zprofile ~/.zprofile
 ln -s ~/Projects/dotfiles/functions ~/.functions
-ln -s ~/Projects/dotfiles/env ~/.env
 ln -s ~/Projects/dotfiles/osx ~/.osx
-ln -s ~/Projects/dotfiles/prompt ~/.prompt
+ln -s ~/Projects/dotfiles/bash-prompt ~/.bash-prompt
+ln -s ~/Projects/dotfiles/bash_profile ~/.bash_profile
 ln -s ~/Projects/dotfiles/phoenix ~/.phoenix.js
+ln -s ~/Projects/dotfiles/npm-init.js ~/.npm-init.js
 
 ## Load osx defaults
 ~/.osx
 
 ## Create a simple local env file - that can overwrite other stuff
 touch .localenv
-
-## Install Oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# Set zsh as default shell
-chsh -s /bin/zsh

@@ -49,7 +49,6 @@ installcask sublime-text3
 # cask browsers
 installcask google-chrome
 installcask firefox
-installcask firefoxdeveloperedition
 
 # cask devtools
 installcask iterm2
