@@ -34,6 +34,7 @@ brew install wget
 brew install tig
 brew install ffind
 brew install openconnect
+brew install shfmt
 
 # OSX native apps
 brew tap caskroom/cask

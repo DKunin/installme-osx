@@ -32,6 +32,7 @@ redis
 ruby
 sdl2
 shellcheck
+shfmt
 rockymadden/rockymadden/somafm-cli
 joshuaclayton/formulae/unused
 wakatime-cli

@@ -6,7 +6,6 @@ mkdir ~/Projects
 # nvm setup 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
 
-
 # brew setup
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -43,13 +42,14 @@ brew install tig
 brew install ffind
 brew install openconnect
 brew install zsh
+brew install shfmt
 
 # OSX native apps
 brew tap caskroom/cask
 brew tap caskroom/versions
 
 function installcask() {
-    brew cask install "${@}" 2> /dev/null
+	brew cask install "${@}" 2>/dev/null
 }
 
 # cask editors
@@ -98,7 +98,7 @@ npm install -g js-beautify
 npm install -g ipt
 
 ## Get dotfiles repo
-cd ~/Projects || exit;
+cd ~/Projects || exit
 
 ## Get dotfiles repo
 git clone https://github.com/DKunin/dotfiles.git
@@ -107,7 +107,7 @@ git clone https://github.com/DKunin/dotfiles.git
 git clone https://github.com/DKunin/bin.git
 
 ## Setup symlinks
-cd ~/ || exit;
+cd ~/ || exit
 ln -s ~/Projects/dotfiles/env ~/.env
 ln -s ~/Projects/dotfiles/aliases ~/.aliases
 ln -s ~/Projects/dotfiles/gitconfig ~/.gitconfig
