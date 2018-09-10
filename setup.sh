@@ -4,7 +4,7 @@
 mkdir ~/Projects
 
 # nvm setup 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 # brew setup
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -61,24 +61,29 @@ curl https://sublime.wbond.net/Package%20Control.sublime-package -o ~/Library/Ap
 # cask browsers
 installcask google-chrome
 installcask firefox
+installcask beaker-browser
 
 # cask devtools
 installcask iterm2
 installcask virtualbox
 installcask vagrant
-installcask skype
 installcask sequel-pro
 installcask tunnelblick
 installcask keka
 installcask cyberduck
 installcask filezilla
 installcask postman
+installcask goland
+installcask datagrip
 
 # cask media
 installcask vlc
 installcask webtorrent
 installcask beardedspice
 installcask vox
+installcask franz
+installcask sketch
+installcask skype
 
 # cask helpers
 installcask keepingyouawake
@@ -87,15 +92,13 @@ installcask bitbar
 installcask alfred
 installcask smcfancontrol
 installcask phoenix
+installcask muzzle
+installcask charles
+installcask licecap
 
-# npm dependencies that I'm not likely to live without
-npm install -g grunt-cli
-npm install -g light-server
-npm install -g gulp
-npm install -g yo
-npm install -g http-server
-npm install -g js-beautify
+# some npm deps
 npm install -g ipt
+npm install nativefier -g
 
 ## Get dotfiles repo
 cd ~/Projects || exit
