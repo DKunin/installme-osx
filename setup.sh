@@ -126,3 +126,9 @@ ln -s ~/Projects/dotfiles/npm-init.js ~/.npm-init.js
 
 ## Create a simple local env file - that can overwrite other stuff
 touch .localenv
+
+### Additional stuff
+# - https://github.com/CGenie/alfred-pass
+# - github.com/willfarrell
+# - https://zlz.im/
+# - https://github.com/zhaocai/alfred2-top-workflow
