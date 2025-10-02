@@ -1,37 +1,18 @@
 === Applications in /Applications ===
-• T-Mazing
-• Adobe Premiere Pro 2024
 • Visual Studio Code
-• OpenMTP
 • VLC
-• FBReader
 • dosbox
 • Nextcloud
 • Dato
 • LICEcap
-• FUJIFILM X Webcam 2
-• qbittorrent
-• cai-helper
-• Adobe Illustrator
 • cptools
-• ShadowsocksX-NG
 • Raycast
 • Keka
 • BeardedSpice
 • Google Chrome
-• Anki
-• Karabiner-Elements
-• Karabiner-EventViewer
-• Scratch 3
 • Bartender 4
-• 02_Canon_Printers_add
 • Finicky
-• Android File Transfer
 • Xcode
-• OneDrive
-• OneDrive Sync Service
-• OneDrive File Handler
-• StandaloneUpdater
 • SyncReporter
 • OneDrive Updater
 • Cyberduck
@@ -767,3 +748,13 @@
 • zoom.us
 • Толк
 • Рутокен для macOS
+
+
+PM2:
+┌────┬────────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+│ id │ name           │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+├────┼────────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+│ 2  │ bear-server    │ default     │ 1.0.0   │ fork    │ 70585    │ 29s    │ 0    │ online    │ 0%       │ 44.7mb   │ dkunin   │ disabled │
+│ 1  │ ben            │ default     │ 1.0.0   │ fork    │ N/A      │ 0      │ 0    │ stopped   │ 0%       │ 0b       │ dkunin   │ disabled │
+│ 0  │ proxy          │ default     │ 1.0.0   │ fork    │ 70576    │ 29s    │ 0    │ online    │ 0%       │ 51.4mb   │ dkunin   │ disabled │
+└────┴────────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
