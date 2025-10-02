@@ -53,18 +53,14 @@ installcask firefox
 
 # cask devtools
 installcask iterm2
-installcask virtualbox
 installcask vagrant
-installcask skype
-installcask sequel-pro
 installcask tunnelblick
 installcask keka
-installcask cyberduck
-installcask postman
+installcask bruno
 
 # cask media
 installcask vlc
-installcask vox
+installcask evermusic
 installcask slack
 
 # cask helpers
